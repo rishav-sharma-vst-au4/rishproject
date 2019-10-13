@@ -9,63 +9,301 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <link  rel="stylesheet" href="style.css">
      </head>
          <body>
             <div class="container-fluid">
+                <div class="nav-head">
                 <header class="blog-header py-3">
                     <div class="row flex-nowrap justify-content-between align-items-center">
                         <div class="col-4 pt-1">
                           <a class="text-muted" href="#">Subscribe</a>
                         </div>
                         <div class="col-4 text-center">
-                          <a class="blog-header-logo text-dark" href="#">Trello</a>
+                          <a class="blog-header-logo text-dark " href="#" style="font-style:italic;">Trello</a>
                         </div>
                         <div class="col-4 d-flex justify-content-end align-items-center">
                           <a class="text-muted" href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+                              
+                                <form class="form-inline">
+                                        <div class="md-form my-0">
+                                          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                                        </div>
+                                      </form>
                           </a>
                           <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
                         </div>
                      </div>
                  </header>
-                <div class="container-fluid">
-                        <div class="nav-scroller py-1 mb-2">
-                                <nav class="nav">
-                                  <a class="p-2 text-muted" href="#">Things To Be Done</a>
-                                  <a class="p-2 text-muted" href="#">Team Awesome</a>
-                                  <a class="p-2 text-muted" href="#">Team Visible</a>
-                                </nav>
-                              </div>
-                              <div class="row">
-                                    <div class="col-sm-3">
-                                      <div class="card">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Special title treatment</h5>
-                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-3">
-                                      <div class="card">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Special title treatment</h5>
-                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-sm-3">
-                                            <div class="card">
-                                              <div class="card-body">
-                                                <h5 class="card-title">Special title treatment</h5>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                              </div>
-                                            </div>
-                                          </div>
-                                  </div>
                 </div>
+                
+                        <nav class="navbar navbar-expand-lg">
+                                <div class="container">
+                                  <a class="navbar-brand text-dark" href="#">Things To Get Done</a>
+                                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-bar navbar-kebab"></span>
+                                  <span class="navbar-toggler-bar navbar-kebab"></span>
+                                  <span class="navbar-toggler-bar navbar-kebab"></span>
+                                  </button>
+                                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav">
+                                      <li class="nav-item active">
+                                        <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#">Team Awesome</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#">Team Visible</a>
+                                      </li>
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Dropdown link
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </nav>
+                              <div class="card-deck" style="width: 1400px; height: 500px;">
+                                    <div class="card">
+                                      <img src="https://picsum.photos/id/1026/367/267" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                      </div>
+                                      <div class="card-footer">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img src="https://picsum.photos/id/1010/367/267" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                      <div class="card-footer">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img src="https://picsum.photos/id/1031/367/267" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                      </div>
+                                      <div class="card-footer">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                      </div>
+                                    </div>
+                                    <div class="card panels-card">
+
+                                            <div class="rounded-top grey lighten-2 dark-grey-text">
+                                              <ul class="list-inline float-right my-0 py-1 pr-3">
+                                                <li class="list-inline-item">
+                                                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          
+                                            <!--Navbar-->
+                                            <nav class="navbar navbar-expand-lg navbar-dark grey lighten-5 d-flex justify-content-between z-depth-1-bottom">
+                                          
+                                                <div>
+                                                  <ul class="list-inline my-2 py-1 dark-grey-text">
+                                                    <li class="list-inline-item">
+                                                      <i class="fas fa-bars" aria-hidden="true"></i>
+                                                    </li>
+                                                    <li class="list-inline-item font-weight-bold text-uppercase">
+                                                      weather
+                                                    </li>
+                                                  </ul>
+                                                </div>
+                                          
+                                                <div>
+                                                  <ul class="list-inline my-2 py-1 dark-grey-text">
+                                                    <li class="list-inline-item">
+                                                      <i class="fas fa-search" aria-hidden="true"></i>
+                                                      <i class="fas fa-ellipsis-v pl-3" aria-hidden="true"></i>
+                                                    </li>
+                                                  </ul>
+                                                </div>
+                                          
+                                            </nav>
+                                            <!--/.Navbar-->
+                                          
+                                            <div class="card-body grey lighten-5 rounded-bottom">
+                                          
+                                              <!-- Grid row -->
+                                              <div class="row">
+                                          
+                                                <!-- Grid column -->
+                                                <div class="col-6 p-1">
+                                          
+                                                  <div class="card grey lighten-2">
+                                                    <div class="card-body pb-0">
+                                                      <i class="fas fa-cloud fa-3x pb-4"></i>
+                                                      <div class="d-flex justify-content-between">
+                                                        <p class="mb-0 h5">15&deg;</p>
+                                                        <p class="mb-0 hour">12:15 PM</p>
+                                                      </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="card-body pt-0">
+                                                      <h6 class="font-weight-bold mb-1">San Francisco</h6>
+                                                      <p class="mb-0">Cloudy</p>
+                                                    </div>
+                                                  </div>
+                                          
+                                                </div>
+                                                <!-- Grid column -->
+                                          
+                                                <!-- Grid column -->
+                                                <div class="col-6 p-1">
+                                          
+                                                  <div class="card orange lighten-3">
+                                                    <div class="card-body pb-0">
+                                                      <i class="fas fa-sun fa-3x pb-4"></i>
+                                                      <div class="d-flex justify-content-between">
+                                                        <p class="mb-0 h5">23&deg;</p>
+                                                        <p class="mb-0 hour">3:25 PM</p>
+                                                      </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="card-body pt-0">
+                                                      <h6 class="font-weight-bold mb-1">New York City</h6>
+                                                      <p class="mb-0">Sunny</p>
+                                                    </div>
+                                                  </div>
+                                          
+                                                </div>
+                                                <!-- Grid column -->
+                                          
+                                              </div>
+                                              <!-- Grid row -->
+                                          
+                                              <!-- Grid row -->
+                                              <div class="row">
+                                          
+                                                <!-- Grid column -->
+                                                <div class="col-6 p-1">
+                                          
+                                                  <div class="card indigo lighten-3">
+                                                    <div class="card-body pb-0">
+                                                      <i class="fas fa-tint fa-3x pb-4"></i>
+                                                      <div class="d-flex justify-content-between">
+                                                        <p class="mb-0 h5">10&deg;</p>
+                                                        <p class="mb-0 hour">10:30 AM</p>
+                                                      </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="card-body pt-0">
+                                                      <h6 class="font-weight-bold mb-1">Seattle</h6>
+                                                      <p class="mb-0">Light rain</p>
+                                                    </div>
+                                                  </div>
+                                          
+                                                </div>
+                                                <!-- Grid column -->
+                                          
+                                                <!-- Grid column -->
+                                                <div class="col-6 p-1">
+                                          
+                                                  <div class="card grey lighten-2">
+                                                    <div class="card-body pb-0">
+                                                      <i class="fas fa-cloud fa-3x pb-4"></i>
+                                                      <div class="d-flex justify-content-between">
+                                                        <p class="mb-0 h5">14&deg;</p>
+                                                        <p class="mb-0 hour">8:10 PM</p>
+                                                      </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="card-body pt-0">
+                                                      <h6 class="font-weight-bold mb-1">Milwaukee</h6>
+                                                      <p class="mb-0">Cloudy</p>
+                                                    </div>
+                                                  </div>
+                                          
+                                                </div>
+                                                <!-- Grid column -->
+                                          
+                                              </div>
+                                              <!-- Grid row -->
+                                          
+                                              <!-- Grid row -->
+                                              <div class="row">
+                                          
+                                                <!-- Grid column -->
+                                                <div class="col-6 p-1">
+                                          
+                                                  <div class="card orange lighten-3">
+                                                    <div class="card-body pb-0">
+                                                      <i class="fas fa-sun fa-3x pb-4"></i>
+                                                      <div class="d-flex justify-content-between">
+                                                        <p class="mb-0 h5">25&deg;</p>
+                                                        <p class="mb-0 hour">1:35 PM</p>
+                                                      </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="card-body pt-0">
+                                                      <h6 class="font-weight-bold mb-1">Honolulu</h6>
+                                                      <p class="mb-0">Sunny</p>
+                                                    </div>
+                                                  </div>
+                                          
+                                                </div>
+                                                <!-- Grid column -->
+                                          
+                                                <!-- Grid column -->
+                                                <div class="col-6 p-1">
+                                          
+                                                  <div class="card indigo white-text">
+                                                    <div class="card-body pb-0">
+                                                      <i class="fas fa-umbrella fa-3x pb-4"></i>
+                                                      <div class="d-flex justify-content-between">
+                                                        <p class="mb-0 h5">5&deg;</p>
+                                                        <p class="mb-0 hour">7:00 AM</p>
+                                                      </div>
+                                                    </div>
+                                                    <hr class="hr-light">
+                                                    <div class="card-body pt-0">
+                                                      <h6 class="font-weight-bold mb-1">Anchorage</h6>
+                                                      <p class="mb-0">Heavy rain</p>
+                                                    </div>
+                                                  </div>
+                                          
+                                                </div>
+                                                <!-- Grid column -->
+                                          
+                                              </div>
+                                              <!-- Grid row -->
+                                          
+                                            </div>
+                                          
+                                          </div>
+                                    
+                                  </div>
+                                  
+                                  
+                                  
+                </div>
+                <footer class="blog-footer">
+                        <p>Headquartered in Hauz Khas, Edfora - “Education for All” was founded by a team of entrepreneurs who brought 25 years of academic wisdom of FIITJEE interspersed thickly to create world class EdTech products. Edfora’s first live product in the EdTech ecosystem is “myPAT- my Performance Analysis Tool”, which is India’s largest online learning and assessment platform<a href="https://FIITJEE/"></a><a href="https://twitter.com/FIITJEE">@FIITJEE</a>.</p>
+                        <p>
+                          <a href="#">Back to top</a>
+                        </p>
+                      </footer>
          </body>
      </html>

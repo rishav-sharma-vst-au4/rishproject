@@ -1,24 +1,21 @@
-.nav {
-    /* Old Chrome, Safari and Opera */
-    -webkit-column-count: 3;
-    -webkit-column-gap: 40px;
-    -webkit-column-rule-style: solid;
-    -webkit-column-rule-width: 1px;
-    -webkit-column-rule-color: lightblue;
-    
-    /* Old Firefox */  
-    -moz-column-count: 3; 
-    -moz-column-gap: 40px;
-    -moz-column-rule-style: solid;
-    -moz-column-rule-width: 1px;
-    -moz-column-rule-color: lightblue;  
+body, html {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
   
-    /* Standard syntax */
-    column-count: 3;
-    column-gap: 40px;
-    column-rule-style: solid;
-    column-rule-width: 1px;
-    column-rule-color: lightblue;
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
 
-    width: 1100px;
+footer{
+    margin-top: 250px;
+    text-align: center;
   }
