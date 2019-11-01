@@ -20,7 +20,7 @@ app.engine('.hbs', hbs.engine);
 app.set('view engine', '.hbs');
 
 //homepage.hbs layout
-app.get('/',function(res,req,next) {
+app.get('/',function(req,res) {
 	return res.render('homepages');
 });
 
