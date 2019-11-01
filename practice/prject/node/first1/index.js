@@ -20,8 +20,8 @@ app.engine('.hbs', hbs.engine);
 app.set('view engine', '.hbs');
 
 //homepage.hbs layout
-app.get('/',function(res,req) {
-	return res.render('homepage');
+app.get('/',function(res,req,next) {
+	return res.render('homepages');
 });
 
 // Start the app on pre defined port number
