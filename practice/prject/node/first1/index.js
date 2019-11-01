@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const express = require('express'); // function
 const app = express();
 const exphbs = require('express-handlebars');
-const PORT = 9090;
+const PORT = 1010;
 
 app.use(express.json());
 app.use(express.urlencoded());
