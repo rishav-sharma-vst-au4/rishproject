@@ -14,19 +14,19 @@ const hbs = exphbs.create({
 	extname: '.hbs'
 });
 
-// Import Book model
-var bookRoute = require('./routes/books.js');
 
 // Register Handlebars as view engine
 app.engine('.hbs', hbs.engine);
 app.set('view engine', '.hbs');
 
-// Add routes here 
-app.post('/create', bookRoute.create);
+//homepage.hbs layout
+app.get('/',function(res,req) {
+	return res.render('homepage');
+});
 
 // Start the app on pre defined port number
 app.listen(PORT, function() {
-	console.log("Application has started and running on port: ", PORT);
+	console.log("Application has started and running on port: ",chalk.blue('PORT'));
 }).on('error', function(error) {
 	console.log("Unable to start app. Error >>>>", error);
 });
