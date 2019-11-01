@@ -26,7 +26,7 @@ app.get('/',function(res,req) {
 
 // Start the app on pre defined port number
 app.listen(PORT, function() {
-	console.log("Application has started and running on port: ",chalk.blue('PORT'));
+	console.log("Application has started and running on port: ",chalk.blue(PORT));
 }).on('error', function(error) {
 	console.log("Unable to start app. Error >>>>", error);
 });
