@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const express = require('express'); // function
 const app = express();
 const exphbs = require('express-handlebars');
-const PORT = 1010;
+const PORT = 9090;
 
 app.use(express.json());
 app.use(express.urlencoded());
@@ -21,7 +21,7 @@ app.set('view engine', '.hbs');
 
 //homepage.hbs layout
 app.get('/',function(req,res) {
-	return res.render('homepages');
+	return res.render('homepage');
 });
 
 // Start the app on pre defined port number
