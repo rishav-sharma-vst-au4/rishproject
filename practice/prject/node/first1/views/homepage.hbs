@@ -1,0 +1,21 @@
+<div class="col-md-6 mx-auto">
+  <h1>register</h1>
+	<form action="/profile/register" method="post" enctype="multipart/form-data" class="group-control">
+  <input type="text" name="first-name" class="form-control" placeholder="first name"/>
+  <br>
+  <input type="text" name="last-name" class="form-control" placeholder="last name" />
+  <br>
+  <div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Uploads</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01"
+      aria-describedby="inputGroupFileAddon01" name="avatar">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
+  <br>
+  <input type="submit" value="register" class="btn btn-success" />
+</form>
+</div>
